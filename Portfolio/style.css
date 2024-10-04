@@ -64,7 +64,37 @@ nav ul li a:hover {
     align-items: center;
     height: 100vh;
     background-color: black;
+    color: rgb(236, 229, 225);
+    font-family: Impact;
 }
+
+.About-box {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ParaOne, .ParaTwo {
+    font-family: poppins;
+    width: 47%;
+}
+
+
+
 
 .Skills-page {
     display: flex;
@@ -82,6 +112,15 @@ nav ul li a:hover {
     height: 100vh;
     background-color: black;
 }
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #000000;
