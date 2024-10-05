@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: #ffcc00; 
+    color: #000;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -186,7 +191,6 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
   background-color: rgb(236, 229, 225);
   display: flex;
   flex-direction: column;
-
   background-image: linear-gradient(0deg, transparent 99%, gray 100%, gray 100%),
 linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
   background-size: 95px 95px;
@@ -195,7 +199,7 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
 .skills-heading {
     font-size: 5.83vw;
     padding-top: 10vh;
-  font-family: Impact;
+    font-family: Impact;
 }
 
 .skills-boxes img {
@@ -222,7 +226,7 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
     border-radius: 15px;
     background-color: #ece5e1;
     flex-wrap: wrap;
@@ -232,6 +236,7 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
 
 .dev:hover, .lang:hover {
     transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
 .imgs, .imgs2 {
@@ -260,15 +265,53 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
     text-decoration: none;
 }
 
-
-
 .Projects-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  color: rgb(236, 229, 225);
 }
+
+.projects-heading {
+    font-size: 5.83vw;
+    padding-top: 10vh;
+    font-family: Impact;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.project {
+    height: 60vh;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.project img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
 
 footer {
   background-color: #000000;
