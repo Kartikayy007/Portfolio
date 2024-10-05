@@ -638,8 +638,12 @@ footer {
   .About-box {
     margin-top: 12vh;
   }
+
+  .floating-images {
+    display: none; 
+  }
   
-  .hero, .floating-images {
+  .hero {
     transform: scale(0.8);
   }
 }
