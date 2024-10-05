@@ -572,7 +572,7 @@ footer {
   }
 
   .About-box {
-    margin-top: 12vh;
+    margin-top: 14vh;
   }
   .hero,
   .floating-images {
@@ -654,7 +654,7 @@ footer {
   .Projects-page {
     height: auto;
     min-height: 100vh;
-    padding: 15vh 0 5vh 0;
+    padding: 10vh 0 5vh 0;
   }
 
   .skills-heading,
@@ -675,7 +675,7 @@ footer {
   }
 
   .About-box {
-    margin-top: 12vh;
+    margin-top: 11vh;
   }
 
   .floating-images {
