@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 ::selection {
@@ -431,6 +432,20 @@ footer {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),0 0 20px rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (max-width: 1280px) {
+  .About-box {
+    margin-top: 8rem;
+    
+  }
+  .dev, .lang {
+    height: 66vh;
+  }
+  .About-page {
+    margin-bottom: 5rem;
+  }
+}
+
+
 @media screen and (max-width: 1024px) { 
   nav ul li {
     padding: 0px;
@@ -441,6 +456,9 @@ footer {
   
   .ParaOne, .ParaTwo, .ParaThree {
     margin: 1rem 0;
+  }
+  .floating-images {
+    display: none;
   }
   
   .skills-boxes {
@@ -466,6 +484,53 @@ footer {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .rounded-box {
+    margin: 0.5rem;
+  }
+  
+  .About-page {
+    height: auto;
+    min-height: 100vh; 
+    padding: 0 0 5vh 0;
+  }
+  .Skills-page, .Projects-page {
+    padding: 15vh 0 5vh 0;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .skills-heading {
+    padding: 0px;
+    font-size: 8vw;
+  }
+
+  .projects-heading {
+    padding: 0px;
+    font-size: 8vw;
+  }
+  
+  .imgs img, .imgs2 img {
+    width: 25%;
+  }
+  
+  .details-dev, .details-cp {
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  .About-box {
+    margin-top: 12vh;
+  }
+  .hero,.floating-images {
+    transform: scale(0.8);
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav ul li {
     padding: 0px;
@@ -473,7 +538,7 @@ footer {
   
   .About-box {
     width: 90%;
-    margin-top: -10vh; 
+    margin-top: 12vh; 
   }
   
   .name {
