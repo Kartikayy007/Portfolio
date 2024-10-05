@@ -75,7 +75,7 @@ nav ul li a:hover {
   height: 100vh;
   background-color: black;
   color: rgb(236, 229, 225);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .About-box {
@@ -184,7 +184,7 @@ nav ul li a:hover {
     transform: translateY(-10px) rotate(-8deg);
   }
   100% {
-    transform: translateY(0px) rotate(-10deg)
+    transform: translateY(0px) rotate(-10deg);
   }
 }
 
@@ -201,7 +201,7 @@ nav ul li a:hover {
 .skills-heading {
   font-size: 5.83vw;
   padding-top: 10vh;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .skills-boxes img {
@@ -234,7 +234,6 @@ nav ul li a:hover {
   background-color: #ece5e1;
   flex-wrap: wrap;
 }
-
 
 .dev:hover,
 .lang:hover {
@@ -290,12 +289,12 @@ nav ul li a:hover {
 }
 
 .github {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 3em;
   text-align: center;
 }
 .cp-links {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   font-size: 0em;
 }
@@ -306,29 +305,27 @@ nav ul li a:hover {
   text-decoration: none;
 }
 .cp-links img {
-    width: 100%; 
-    height: auto; 
-    object-fit: contain;
-    max-width: 150px; 
-    max-height: 150px; 
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cp-links img {
-      max-width: 120px; 
-      max-height: 120px; 
+    max-width: 120px;
+    max-height: 120px;
   }
   .cp-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-.lang {
-      overflow: hidden;
+  .lang {
+    overflow: hidden;
   }
 }
-
 
 .Projects-page {
   height: 100vh;
@@ -341,7 +338,7 @@ nav ul li a:hover {
 .projects-heading {
   font-size: 5.83vw;
   padding-top: 10vh;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(236, 229, 225);
 }
 
@@ -374,7 +371,7 @@ nav ul li a:hover {
 }
 
 .project .title {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2em;
   color: black;
   margin-bottom: 15px;
@@ -405,7 +402,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; 
+  height: 100%;
 }
 
 .project button {
@@ -431,7 +428,6 @@ nav ul li a:hover {
   display: inline-block;
   text-decoration: none;
 }
-
 
 footer {
   background-color: #000000;
@@ -469,54 +465,57 @@ footer {
 
 .foot-links:hover {
   color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),0 0 20px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6);
 }
 
-  @media screen and (max-width: 1280px) {
-    .About-box {
-      margin-top: 8rem;
-      
-    }
-    .dev, .lang {
-      height: 66vh;
-    }
-    .About-page {
-      margin-bottom: 5rem;
-    }
+@media screen and (max-width: 1280px) {
+  .About-box {
+    margin-top: 8rem;
   }
+  .dev,
+  .lang {
+    height: 66vh;
+  }
+  .About-page {
+    margin-bottom: 5rem;
+  }
+}
 
-
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   nav ul li {
     padding: 0px;
   }
   .about-me {
     flex-direction: column;
   }
-  
-  .ParaOne, .ParaTwo, .ParaThree {
+
+  .ParaOne,
+  .ParaTwo,
+  .ParaThree {
     margin: 1rem 0;
   }
   .floating-images {
     display: none;
   }
-  
+
   .skills-boxes {
     align-items: center;
     flex-direction: column;
   }
-  
-  .dev, .lang {
+
+  .dev,
+  .lang {
     width: 80vw;
     margin-bottom: 2rem;
     height: auto;
   }
-  
+
   .projects-container {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .project {
     width: 80vw;
     margin-bottom: 2rem;
@@ -532,18 +531,19 @@ footer {
   .rounded-box {
     margin: 0.5rem;
   }
-  
+
   .About-page {
     height: auto;
-    min-height: 100vh; 
+    min-height: 100vh;
     padding: 0 0 5vh 0;
   }
-  .Skills-page, .Projects-page {
+  .Skills-page,
+  .Projects-page {
     padding: 15vh 0 5vh 0;
     height: auto;
     min-height: 100vh;
   }
-  
+
   .skills-heading {
     padding: 0px;
     font-size: 8vw;
@@ -553,20 +553,23 @@ footer {
     padding: 0px;
     font-size: 8vw;
   }
-  
-  .imgs img, .imgs2 img {
+
+  .imgs img,
+  .imgs2 img {
     width: 25%;
   }
-  
-  .details-dev, .details-cp {
+
+  .details-dev,
+  .details-cp {
     padding: 15px;
     font-size: 16px;
   }
-  
+
   .About-box {
     margin-top: 14vh;
   }
-  .hero,.floating-images {
+  .hero,
+  .floating-images {
     transform: scale(0.8);
   }
 }
@@ -575,40 +578,41 @@ footer {
   nav ul li {
     padding: 0px;
   }
-  
+
   .About-box {
     width: 90%;
-    margin-top: 12vh; 
+    margin-top: 12vh;
   }
-  
+
   .name {
     font-size: 8vw;
   }
-  
+
   .contain {
     height: 35vh;
-    border-radius: 0; 
-    margin-left: 0; 
+    border-radius: 0;
+    margin-left: 0;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
-
   }
-  
+
   .hero {
     display: flex;
     justify-content: center;
-    left: 0; 
+    left: 0;
   }
-  
+
   .hero img {
     max-width: 80%;
     height: auto;
   }
   .floating-images {
-    display: none; 
+    display: none;
   }
-  
-  .dev, .lang, .project {
+
+  .dev,
+  .lang,
+  .project {
     width: 90vw;
   }
 }
@@ -616,56 +620,60 @@ footer {
 @media screen and (max-width: 480px) {
   nav ul {
     font-size: 0.7rem;
-        justify-content: center;
+    justify-content: center;
   }
 
   nav {
     padding: 1vh;
   }
-  
+
   .logo {
     font-size: 0.9rem;
     align-items: center;
   }
-  
+
   .rounded-box {
     margin: 0.5rem;
   }
-  
+
   .About-page {
     height: auto;
-    min-height: 100vh; 
+    min-height: 100vh;
     padding: 0 0 5vh 0;
   }
-  
-  .Skills-page, .Projects-page {
+
+  .Skills-page,
+  .Projects-page {
     height: auto;
     min-height: 100vh;
     padding: 15vh 0 5vh 0;
   }
-  
-  .skills-heading, .projects-heading {
+
+  .skills-heading,
+  .projects-heading {
     font-size: 8vw;
     padding: 0px;
   }
-  
-  .imgs img, .imgs2 img {
+
+  .imgs img,
+  .imgs2 img {
     width: 25%;
   }
-  
-  .details-dev, .details-cp {
+
+  .details-dev,
+  .details-cp {
     font-size: 16px;
     padding: 15px;
   }
-  
+
   .About-box {
     margin-top: 12vh;
   }
 
   .floating-images {
-    display: none; 
+    display: none;
   }
-  
+
   .hero {
     transform: scale(0.8);
   }
