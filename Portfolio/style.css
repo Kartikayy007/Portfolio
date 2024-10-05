@@ -287,8 +287,7 @@ nav ul li a:hover {
 .details-cp {
   font-family: poppins;
   font-weight: 500;
-  padding: 20px;
-  padding: 23px;
+  padding: 1rem;
   font-size: 20px;
 }
 
