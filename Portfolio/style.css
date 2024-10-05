@@ -421,13 +421,143 @@ footer {
 }
 
 .footer-social i {
-  font-size: 3em;
   color: #ece5e1;
   transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-size: 3em;
 }
 
 .foot-links:hover {
   color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-    0 0 20px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me {
+    flex-direction: column;
+  }
+  
+  .ParaOne, .ParaTwo, .ParaThree {
+    margin: 1rem 0;
+  }
+  
+  .skills-boxes {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .dev, .lang {
+    width: 80vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project {
+    width: 80vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul li {
+    padding: 10px;
+  }
+  
+  .About-box {
+    width: 90%;
+    margin-top: 15vh; 
+  }
+  
+  .name {
+    font-size: 8vw;
+  }
+  
+  .contain {
+    height: 35vh;
+    border-radius: 0; 
+    margin-left: 0; 
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    left: 0; 
+  }
+  
+  .floating-images {
+    right: 0; 
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .hero img, .floating-images img {
+    max-width: 80%;
+    height: auto;
+  }
+  .floating-images {
+    display: none; 
+  }
+  
+  .dev, .lang, .project {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logo {
+    align-items: center;
+  }
+  
+  .rounded-box {
+    margin: 0.5rem;
+  }
+  
+  .About-page {
+    height: auto;
+    min-height: 100vh; 
+    padding: 5vh 0 5vh 0;
+  }
+  
+  .Skills-page, .Projects-page {
+    height: auto;
+    min-height: 100vh;
+    padding: 15vh 0 5vh 0;
+  }
+  
+  .skills-heading, .projects-heading {
+    font-size: 8vw;
+    padding: 0px;
+  }
+  
+  .imgs img, .imgs2 img {
+    width: 25%;
+  }
+  
+  .details-dev, .details-cp {
+    font-size: 16px;
+    padding: 15px;
+  }
+  
+  .About-box {
+    margin-top: 12vh;
+  }
+  
+  .hero, .floating-images {
+    transform: scale(0.8);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
