@@ -48,6 +48,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: rgb(236, 229, 225);
+  text-decoration: underline;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(255, 255, 255, 0.6);
 }
