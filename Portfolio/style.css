@@ -234,6 +234,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
+
 .dev:hover,
 .lang:hover {
   transform: translateY(-5px);
