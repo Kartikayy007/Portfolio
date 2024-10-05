@@ -432,6 +432,9 @@ footer {
 }
 
 @media screen and (max-width: 1024px) { 
+  nav ul li {
+    padding: 0px;
+  }
   .about-me {
     flex-direction: column;
   }
@@ -465,12 +468,12 @@ footer {
 
 @media screen and (max-width: 768px) {
   nav ul li {
-    padding: 10px;
+    padding: 0px;
   }
   
   .About-box {
     width: 90%;
-    margin-top: 15vh; 
+    margin-top: -10vh; 
   }
   
   .name {
@@ -513,6 +516,10 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  nav {
+    padding: 1vh;
+  }
   
   .logo {
     align-items: center;
@@ -525,7 +532,7 @@ footer {
   .About-page {
     height: auto;
     min-height: 100vh; 
-    padding: 5vh 0 5vh 0;
+    padding: 0 0 5vh 0;
   }
   
   .Skills-page, .Projects-page {
