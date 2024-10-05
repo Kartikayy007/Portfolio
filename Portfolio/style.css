@@ -75,7 +75,7 @@ nav ul li a:hover {
   height: 100vh;
   background-color: black;
   color: rgb(236, 229, 225);
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .About-box {
@@ -201,7 +201,7 @@ nav ul li a:hover {
 .skills-heading {
   font-size: 5.83vw;
   padding-top: 10vh;
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .skills-boxes img {
@@ -290,12 +290,12 @@ nav ul li a:hover {
 }
 
 .github {
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 3em;
   text-align: center;
 }
 .cp-links {
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   font-size: 0em;
 }
@@ -341,7 +341,7 @@ nav ul li a:hover {
 .projects-heading {
   font-size: 5.83vw;
   padding-top: 10vh;
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(236, 229, 225);
 }
 
@@ -374,7 +374,7 @@ nav ul li a:hover {
 }
 
 .project .title {
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
   color: black;
   margin-bottom: 15px;
