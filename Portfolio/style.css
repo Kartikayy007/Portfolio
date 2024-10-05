@@ -549,6 +549,9 @@ footer {
     height: 35vh;
     border-radius: 0; 
     margin-left: 0; 
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+
   }
   
   .hero {
