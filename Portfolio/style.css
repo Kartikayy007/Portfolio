@@ -182,7 +182,7 @@ nav ul li a:hover {
     transform: translateY(-10px) rotate(-8deg);
   }
   100% {
-    transform: translateY(0px) rotate(-10deg);
+    transform: translateY(0px) rotate(-10deg)
   }
 }
 
