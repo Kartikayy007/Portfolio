@@ -182,12 +182,23 @@ linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
 }
 
 .Skills-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background-color: rgb(236, 229, 225);
+  display: flex;
+  justify-content: center;
 }
+
+.skills-heading {
+    font-size: 5.83vw;
+    padding-top: 10vh;
+  font-family: Impact;
+}
+
+
+
+
+
+
 
 .Projects-page {
   display: flex;
