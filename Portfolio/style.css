@@ -280,6 +280,8 @@ nav ul li a:hover {
   padding-top: 5%;
 }
 
+
+
 .details-dev,
 .details-cp {
   font-family: poppins;
@@ -312,6 +314,8 @@ nav ul li a:hover {
   max-width: 150px;
   max-height: 150px;
 }
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cp-links img {
@@ -445,6 +449,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  margin-top: 2rem;
 }
 
 .footer-social {
@@ -567,11 +572,12 @@ footer {
   }
 
   .About-box {
-    margin-top: 14vh;
+    margin-top: 12vh;
   }
   .hero,
   .floating-images {
     transform: scale(0.8);
+    margin-top: 10rem;
   }
 }
 
@@ -601,6 +607,7 @@ footer {
     display: flex;
     justify-content: center;
     left: 0;
+    /* margin-bottom: 10rem; */
   }
 
   .hero img {
@@ -677,5 +684,6 @@ footer {
 
   .hero {
     transform: scale(0.8);
+    margin-top: 1rem;
   }
 }
