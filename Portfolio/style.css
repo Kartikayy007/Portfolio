@@ -443,18 +443,18 @@ footer {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),0 0 20px rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1280px) {
-  .About-box {
-    margin-top: 8rem;
-    
+  @media screen and (max-width: 1280px) {
+    .About-box {
+      margin-top: 8rem;
+      
+    }
+    .dev, .lang {
+      height: 66vh;
+    }
+    .About-page {
+      margin-bottom: 5rem;
+    }
   }
-  .dev, .lang {
-    height: 66vh;
-  }
-  .About-page {
-    margin-bottom: 5rem;
-  }
-}
 
 
 @media screen and (max-width: 1024px) { 
@@ -535,7 +535,7 @@ footer {
   }
   
   .About-box {
-    margin-top: 12vh;
+    margin-top: 14vh;
   }
   .hero,.floating-images {
     transform: scale(0.8);
@@ -571,13 +571,7 @@ footer {
     left: 0; 
   }
   
-  .floating-images {
-    position: absolute;
-    right: 0; 
-    z-index: 1;
-  }
-  
-  .hero img, .floating-images img {
+  .hero img {
     max-width: 80%;
     height: auto;
   }
