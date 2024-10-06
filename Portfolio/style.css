@@ -7,7 +7,7 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -281,8 +281,6 @@ nav ul li a:hover {
   padding-top: 5%;
 }
 
-
-
 .details-dev,
 .details-cp {
   font-family: poppins;
@@ -314,8 +312,6 @@ nav ul li a:hover {
   max-width: 150px;
   max-height: 150px;
 }
-
-
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cp-links img {
@@ -759,3 +755,10 @@ footer {
   transform: translateY(-2px);
 }
 
+form textarea:focus {
+  border-color: yellow;
+}
+
+form input:focus {
+  border-color: #ffcc00;
+}
