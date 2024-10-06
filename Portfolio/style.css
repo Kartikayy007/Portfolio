@@ -264,12 +264,13 @@ nav ul li a:hover {
   z-index: -1;
 }
 
+
 @keyframes borderShine {
   0% {
-    background-position: 200% 0;
+    background-position:100% 0;
   }
   100% {
-    background-position: -200% 0;
+    background-position: -100% 0;
   }
 }
 
@@ -720,6 +721,7 @@ footer {
   font-size: 16px;
   transition: border-color 0.3s ease;
   border-radius: 10px;
+  /* text-align: center; */
 }
 
 .form textarea {
@@ -751,7 +753,7 @@ footer {
 }
 
 .form button:hover {
-  box-shadow: 0 5px 15px rgba(236, 229, 225, 0.3);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
 }
 
