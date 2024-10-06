@@ -746,12 +746,11 @@ footer {
   background-color: white;
   color: black;
   padding: 12px 40px;
-  align-self: center;
-  transition: all 0.3s ease;
   font-size: 16px;
   font-weight: 500;
   font-family: Poppins, sans-serif;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .form button:hover {
