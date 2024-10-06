@@ -703,7 +703,7 @@ footer {
 
 .container {
   max-width: 600px;
-  margin: 0vw 30vw;
+  margin: 0vw auto;
   padding: 0vw 20px;
 }
 
@@ -713,3 +713,4 @@ footer {
   gap: 1.5rem;
   justify-content: center;
 }
+
