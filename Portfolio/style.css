@@ -756,7 +756,7 @@ footer {
 }
 
 form textarea:focus {
-  border-color: yellow;
+  border-color: #ffcc00;
 }
 
 form input:focus {
