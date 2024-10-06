@@ -757,8 +757,10 @@ footer {
 
 form textarea:focus {
   border-color: #ffcc00;
+  outline: none;
 }
 
 form input:focus {
   border-color: #ffcc00;
+  outline: none;
 }
