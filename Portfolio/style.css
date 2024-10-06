@@ -738,6 +738,7 @@ footer {
 
 .form textarea {
   height: 150px;
+  resize: none;
 }
 
 .form button {
@@ -757,3 +758,4 @@ footer {
   box-shadow: 0 5px 15px rgba(236, 229, 225, 0.3);
   transform: translateY(-2px);
 }
+
