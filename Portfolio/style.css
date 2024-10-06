@@ -771,3 +771,8 @@ form input:focus {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .heading h1 {
+    font-size: 10vw;
+  }
+}
