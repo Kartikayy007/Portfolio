@@ -687,3 +687,29 @@ footer {
     margin-top: 1rem;
   }
 }
+
+.Contactform {
+  background-color: black;
+  padding: 5vh;
+}
+
+.heading h1 {
+  text-align: center;
+  margin: 1.8rem 1.8rem;
+  color: rgb(236, 229, 225);
+  font-size: 5.83vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0vw 30vw;
+  padding: 0vw 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
