@@ -200,6 +200,108 @@ nav ul li a:hover {
   margin-top: 3rem;
 }
 
+.Experience-page {
+  min-height: 100vh;
+  background-color: rgb(236, 229, 225);
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, transparent 99%, gray 100%, gray 100%),
+    linear-gradient(90deg, transparent 99%, gray 100%, gray 100%);
+  background-size: 95px 95px;
+  padding-bottom: 5vh;
+}
+
+.experience-heading {
+  font-size: 5.83vw;
+  padding-top: 10vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-box {
+  width: 80%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 15px;
+  background-color: #ece5e1;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.experience-box::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 15px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.8),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: borderShine 3s linear infinite;
+  z-index: -1;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.experience-title h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.8em;
+  color: black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.experience-details p {
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .skills-heading {
   font-size: 5.83vw;
   padding-top: 10vh;
@@ -234,6 +336,8 @@ nav ul li a:hover {
   border-radius: 15px;
   background-color: #ece5e1;
   flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
 }
 
 .dev:hover,
@@ -287,6 +391,8 @@ nav ul li a:hover {
   font-weight: 500;
   padding: 1rem;
   font-size: 1.2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .github {
@@ -511,14 +617,18 @@ footer {
     width: 80vw;
     margin-bottom: 2rem;
     height: auto;
+    max-height: none;
+    overflow-y: visible;
   }
 
-  .projects-container {
+  .projects-container,
+  .experience-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .project {
+  .project,
+  .experience-box {
     width: 80vw;
     margin-bottom: 2rem;
     height: auto;
@@ -540,6 +650,7 @@ footer {
     padding: 0 0 5vh 0;
   }
   .Skills-page,
+  .Experience-page,
   .Projects-page {
     padding: 15vh 0 5vh 0;
     height: auto;
@@ -616,7 +727,8 @@ footer {
 
   .dev,
   .lang,
-  .project {
+  .project,
+  .experience-box {
     width: 90vw;
   }
 }
@@ -636,6 +748,23 @@ footer {
     align-items: center;
   }
 
+  .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-title h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .experience-details p {
+    font-size: 1em;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
   .rounded-box {
     margin: 0.5rem;
   }
@@ -647,6 +776,7 @@ footer {
   }
 
   .Skills-page,
+  .Experience-page,
   .Projects-page {
     height: auto;
     min-height: 100vh;
@@ -654,6 +784,7 @@ footer {
   }
 
   .skills-heading,
+  .experience-heading,
   .projects-heading {
     font-size: 8vw;
     padding: 0px;
@@ -668,6 +799,9 @@ footer {
   .details-cp {
     font-size: 16px;
     padding: 15px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
   }
 
   .About-box {
@@ -798,7 +932,7 @@ h1:hover, .ParaThree:hover {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(255, 255, 255, 0.6);
 }
- 
+
 .Logo-text {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(255, 255, 255, 0.6);
